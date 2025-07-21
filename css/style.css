@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* ------- Menu Navegação ------- */
+
+nav {
+    background-color: #ffffff;
+    color: #1E2A3A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-links figure img{
+    width: 210px;
+    margin-right: 50px;
+    
+}
+
+.nav-links a{
+    color: #1E2A3A;
+    font-weight: 200;
+    font-size: 1.0rem;
+}
+
+.nav-links a.active {
+    font-weight: 600;
+}
+
+button {
+    background-color: #1E2A3A;
+    color: #ffffff;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.0rem;
+}
+
+button:hover {
+    background-color: #B89B6C;
+    color: #1E2A3A;
+}
+
+/* ------- seção HERO ------- */
+
+.hero{
+    background-color: #F1EBD7;
+    width: 100%;
+    height: 612px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.hero-text{
+    width: 420px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #1E2A3A;
+    margin-bottom: 16px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: #1E2A3A;
+    margin-bottom: 24px;
+}
+
+/* ------- linha de destaque ------- */
+
+.line{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline: auto;
+    height: 61px;
+    background-color: #1E2A3A;
+}
+
+.lineScroll{
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 15px;
+}
+
+.lineItem{
+    font-size: 1.0rem;
+    font-weight: 600;
+    color: #B89B6C;
+}
+
+span{
+    color: #B89B6C;
+    font-weight: 600;
+    rotate: 180deg;
+}
+
+/* ------- Seção de Bônus ------- */
+
+.bonus{
+    width: 100%;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F0F0F0;
+}
+
+
+.bonus h4{
+    max-width: 1440px;
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: #B89B6C;
+    margin-bottom: 8px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.bonus h2{
+    max-width: 1440px;
+    width: 640px;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #1E2A3A;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.bonus h2 span{
+    font-weight: 700;
+    color: #1E2A3A;
+}
+
+.box_itens{
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.box_itens .item{
+    width: 256px;
+    height: 275px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box_itens .bonus_image{
+    width: 100%;
+    height: 140px;
+    background-color: brown;
+    border-radius: 15px 15px 0 0;
+}
+
+.box_itens .item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.text h6{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1E2A3A;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.text p{
+    font-size: 1.0rem;
+    font-weight: 200;
+    color: #1E2A3A;
+    margin-top: 16px;
+    text-align: center;
+    padding: 0 10px;
+    line-height: 1.25;
+}
+
+.bonus_cta {
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.bonus_cta p {
+    font-size: 1.0rem;
+    font-weight: 300;
+    color: #1E2A3A;
+    margin-top: 16px;
+}
+
+.bonus_cta p span{
+    font-weight: 700;
+    color: #1E2A3A;
+}
+
+/* ------- Seção de Como funciona ------- */
+
+.funciona {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#fff;
+}
+
+.funciona h2{
+    max-width: 1440px;
+    width: 640px;
+    margin-top: 80px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1E2A3A;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+/* ------- Seção passo a passo ------- */
+
+.passos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 650px;
+    margin-top: 40px;
+    background-color:#1E2A3A;
+    color: #ffffff;
+}
+
+.passos h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 80px 0 8px 0;
+    text-align: center;
+}
+
+.passos h4{
+    max-width: 1440px;
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: #B89B6C;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.passos .passos-container {
+    max-width: 1440px;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+}
+
+.passos .box_passos{
+    width: 230px;
+    text-align: center;
+}
+
+.box_passos h6{
+    font-size: 1.0rem;
+    font-weight: 600;
+    margin: 8px 0 16px 0;
+}
+
+.box_passos p{
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.linha{
+    border-right: 1px solid #3E4B5B;
+    height: 230px;
+}
+
+button.cta_dourado{
+    background-color:#B89B6C;
+    color: #ffffff;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+    margin-top: 80px;
+    
+}
+
+button.cta_dourado:hover {
+    background-color:#ffffff;
+    color:#1E2A3A;
+}
+
+/* ------- Seção FAQ | Perguntas Frequentes ------- */
+
+.faq {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#fff;
+}
+
+.faq h2{
+    max-width: 1440px;
+    width: 640px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1E2A3A;
+    margin-top: 80px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.faq .faq-container {
+    max-width: 780px;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.faq .faq-item {
+    background-color: #F9F9F9;
+    border: 1px solid #E0E0E0;
+    border-radius: 20px;
+    padding: 16px;
+}
+.faq .faq-item .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .top i{
+    font-size: 1.5rem;
+    cursor: pointer;
+ }
+
+
+.faq .faq-item h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1E2A3A;
+}
+
+.faq .faq-item p {
+    display: none;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #1E2A3A;
+    margin-top: 8px;
+    line-height: 1.25rem;
+}
